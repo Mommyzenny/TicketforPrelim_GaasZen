@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Page</title>
+    <style>
+        body {
+            background-image: url('click.jpg');
+            background-size: cover; 
+            background-color: rgb(226, 101, 139);
+            background-position: center; 
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0; 
+            height: 100vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Front Page</h1>
+    
+    <button onclick="redirectToAnotherPage()">Click me</button>
+
+    <script>
+        function redirectToAnotherPage() {
+            // You can replace 'your-target-page.html' with the actual target page URL
+            window.location.href = 'main.html';
+        }
+    </script>
+</body>
+</html>
